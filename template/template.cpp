@@ -6,18 +6,13 @@
 #define FIRST_IDX 0
 #define AND &&
 #define OR ||
+#define FASTIO ios_base::sync_with_stdio(false); cin.tie(nullptr); cout.tie(nullptr);
 
 #include <bits/stdc++.h>
 using namespace std;
 
-void setup() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    cout.tie(nullptr);
-}
-
 int main() {
-    setup();
+    FASTIO
 
     int i,j,n,m;
 
