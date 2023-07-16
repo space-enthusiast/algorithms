@@ -1,6 +1,6 @@
 #define FOR(N, I) for(I=0;I<N;I++)
-#define PRT(A) count<<(A);
-#define PRT_ARY_2D(ARR, N, M, I, J) for(I=0;I<N;I++){ for(J=0;J<M;J++) { cout<<ARR[I][J]; } count<<"\n"; }
+#define PRT(A) cout<<(A);
+#define PRT_ARY_2D(ARR, N, M, I, J) for(I=0;I<N;I++){ for(J=0;J<M;J++) { cout<<ARR[I][J]; } cout<<"\n"; }
 #define PRT_ENTER cout<<"\n";
 #define LAST_IDX(N) N-1
 #define FIRST_IDX 0
