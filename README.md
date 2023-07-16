@@ -18,6 +18,7 @@
 - 이론 : `[theory] [theory-name] desscription`
 - 문제푼것 표시: `[problem] [problem-provider] [problem-id] desscription`
 - README 업데이트: `[README] description`
+- tempalte 관련 작업: `[TEMPLATE] description`
 
 > theory-name ex: `[greedy]`, `[dp]`, `[sort]`, `[dfs]`, `[bfs]`
 >
