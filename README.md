@@ -17,7 +17,7 @@
 # git 메세지 전략
 - 이론 : `[theory] [theory-name] desscription`
 - 문제푼것 표시: `[problem] [problem-provider] [problem-id] desscription`
-- README 업데이트: [README] description
+- README 업데이트: `[README] description`
 
 > theory-name ex: `[greedy]`, `[dp]`, `[sort]`, `[dfs]`, `[bfs]`
 >
