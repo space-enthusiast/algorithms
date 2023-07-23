@@ -1,5 +1,4 @@
-#define FOR_N(N, I) for(I=0;I<N;I++)
-#define FOR_N_M(N, M, I) for(I=N;I<=M;I++)
+#define FOR(N, I) for(I=0;I<N;I++)
 #define PRT(A) cout<<(A);
 #define PRT_ARY_2D(ARR, N, M, I, J) for(I=0;I<N;I++){ for(J=0;J<M;J++) { cout<<ARR[I][J]; } cout<<"\n"; }
 #define PRT_ENTER cout<<"\n";
@@ -15,7 +14,7 @@ using namespace std;
 int main() {
     FASTIO
 
-    int i,j,n,m;
-
-    cout<<"hello world"<<endl;
+    string arr;
+    getline (cin, arr);
+    cout<<arr<<endl;
 }

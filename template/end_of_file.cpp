@@ -15,7 +15,9 @@ using namespace std;
 int main() {
     FASTIO
 
-    int i,j,n,m;
+    int a;
 
-    cout<<"hello world"<<endl;
+    while (cin>>a) {
+        cout<<a<<'\n';
+    }
 }
