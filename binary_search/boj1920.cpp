@@ -38,7 +38,27 @@ int main() {
     sort(arr, arr + n);
 
     FOR_N(m, i) {
-        ]
+        int x = search[i];
+        int si = 0, sj = n - 1;
+        int idx;
+        while (true) {
+
+            idx = (sj - si + 1) / 2 + si;
+
+            if (NOT(si <= sj)) {
+                cout << 0 << '\n';
+                break;
+            }
+
+            if (arr[idx] == x) {
+                cout << 1 << '\n';
+                break;
+            } else if (arr[idx] < x) {
+                si = idx + 1;
+            } else if (x < arr[idx]) {
+                sj = idx - 1;
+            }
+        }
     }
 
 }
