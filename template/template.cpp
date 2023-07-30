@@ -1,11 +1,14 @@
 #define FOR_N(N, I) for(I=0;I<N;I++)
 #define FOR_N_M(N, M, I) for(I=N;I<=M;I++)
-#define PRT(A) cout<<(A);
+#define PRT_SET(SET) for (auto i: SET) { cout << i << ' '; } cout<<"\n";
+#define PRT_SET_NAME(SET_NAME, SET) cout<<setw(6)<<SET_NAME<<": "; for (auto SET_ITER: SET) { cout << SET_ITER << ' '; } cout<<"\n";
+#define PRT(A) cout<<(A)<<'\n';
+#define PRT_NAME(A_NAME, A) cout<<(A_NAME)<<": "<<(A)<<'\n';
 #define PRT_ARY_1D(ARR, N, I) for(I=0;I<N;I++){ cout<<ARR[I]<<' '; } cout<<"\n";
 #define PRT_ARY_2D(ARR, N, M, I, J) for(I=0;I<N;I++){ for(J=0;J<M;J++) { cout<<ARR[I][J]<<' '; } cout<<"\n"; }
 #define PRT_ENTER cout<<"\n";
 #define PRT_DEBUG_LINE cout<<'\n'<<"================"<<'\n';
-#define LAST_IDX(N) N-1
+#define LAST_IDX(N) (N-1)
 #define FIRST_IDX 0
 #define AND &&
 #define OR ||
