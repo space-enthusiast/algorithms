@@ -1,6 +1,6 @@
 #define FOR_N(N, I) for(I=0;I<N;I++)
 #define FOR_N_M(N, M, I) for(I=N;I<=M;I++)
-#define PRT_SET(SET) for (auto i: SET) { cout << i << ' '; } cout<<"\n";
+#define PRT_SET(SET) for (auto SET_ITER: SET) { cout << SET_ITER << ' '; } cout<<"\n";
 #define PRT_SET_NAME(SET_NAME, SET) cout<<setw(6)<<SET_NAME<<": "; for (auto SET_ITER: SET) { cout << SET_ITER << ' '; } cout<<"\n";
 #define PRT(A) cout<<(A)<<'\n';
 #define PRT_NAME(A_NAME, A) cout<<(A_NAME)<<": "<<(A)<<'\n';
