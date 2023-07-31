@@ -15,8 +15,9 @@
 #define NOT !
 #define FASTIO ios_base::sync_with_stdio(false); cin.tie(nullptr); cout.tie(nullptr);
 #define top_pop(pq) (pq).top();(pq).pop();
-#define MAX 100000
-#define INF 2147483647
+#define MAX 1000000
+#define INF numeric_limits<long>::max()
+#define NUM long long int
 
 #include <bits/stdc++.h>
 
