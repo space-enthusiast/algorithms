@@ -23,10 +23,10 @@
 
 using namespace std;
 
+NUM n, m;
+NUM i, j, k;
+
 int main() {
     FASTIO
-
-    int i, j, n, m;
-
     cout << "hello world" << endl;
 }
