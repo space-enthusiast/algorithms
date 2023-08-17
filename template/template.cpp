@@ -18,6 +18,7 @@
 #define MAX 1000000
 #define INF numeric_limits<long>::max()
 #define NUM long long int
+#define INI_ARR_NUM(ARR, N) NUM ARR[N]; memset(arr, 0, sizeof(ARR));
 
 #include <bits/stdc++.h>
 
