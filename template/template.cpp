@@ -12,6 +12,8 @@
 using namespace std;
 
 typedef long long ll;
+typedef pair<ll, ll> ii;
+typedef pair<pair<ll, ll>, ll> iii;
 
 ll n, m;
 
