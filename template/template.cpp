@@ -15,9 +15,12 @@ typedef long long ll;
 typedef pair<ll, ll> ii;
 typedef pair<pair<ll, ll>, ll> iii;
 
-ll n, m;
+void solve() {
+
+}
 
 int main() {
     FASTIO
-    cout << "hello world" << endl;
+
+    solve();
 }
